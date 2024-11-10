@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 80, 200, .5);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+#welcome {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
