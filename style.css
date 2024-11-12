@@ -28,6 +28,7 @@ img {
 div {
     padding: 15px;
     border-radius: 20px;
+    border: 1px solid black;
 }
 
 #about {
@@ -49,6 +50,7 @@ div {
     text-align: center;
     background-color:cornflowerblue;
     border-radius: 0px;
+    border: none;
 }
 
 #projects {
@@ -76,6 +78,7 @@ footer {
 
 #contact {
     grid-area: 2 / 2 / 3 / 3;
+    border: none;
 }
 
 #comment {
